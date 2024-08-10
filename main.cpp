@@ -34,4 +34,6 @@ int main() {
     }
 
     counted_object::stats::print("Constructed 1 object and push_back called 100 with move on it!");
+
+    std::println(std::cout, "DONE!");
 }
